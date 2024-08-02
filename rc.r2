@@ -865,8 +865,8 @@ s 0x1209
 "afvb -8 canary int64_t"
 "afvb -16 var_10h int64_t"
 "afvb -20 var_14h signed int64_t"
-"afvb -24 var_18h signed int64_t"
-"afvb -40 var_28h int64_t"
+"afvb -24 counter signed int64_t"
+"afvb -40 user_input_28h int64_t"
 s-
 s 0x1209
 "afvr rdi user_input int64_t"
@@ -915,8 +915,8 @@ s 0x1345
 s-
 s 0x1345
 "afvb -4 var_4h signed int64_t"
-"afvb -8 var_8h signed int64_t"
-"afvb -24 var_18h int64_t"
+"afvb -8 counter signed int64_t"
+"afvb -24 user_input_18h int64_t"
 s-
 s 0x1345
 "afvr rdi user_input int64_t"
@@ -4778,4 +4778,4 @@ axC 0x10c0 0x15f8
 # macros
 # aliases
 # seek
-s 0x00001345
+s 0x000014ac
